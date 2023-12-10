@@ -181,10 +181,10 @@
     padding: 20px;
 }
 
-.single-box i {
-    font-size: 35px;
-    margin-bottom: 25px;
-    color: var(--azulClaro);
+.single-box svg {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
 }
 
 .single-box h2 {
@@ -239,6 +239,11 @@
     font-family: bebas neue;
     margin-bottom: 20px;
     color: var(--azulOscuro);
+    text-decoration: underline;
+}
+
+.left-contact p {
+    font-size: 20px;
 }
 
 label {
