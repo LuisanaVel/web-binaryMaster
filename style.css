@@ -155,9 +155,21 @@
     margin-bottom: 30px; 
 }
 
+.single-services svg {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
 .single-services h2 {
     font-family: bebas neue;
     color: var(--azulClaro);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 /* ¿Por qué elegirnos?  */
