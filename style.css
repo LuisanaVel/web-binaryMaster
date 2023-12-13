@@ -149,24 +149,21 @@
     color: var(--blanco);
     padding: 30px 15px;
 }
-
 .single-services i {
     font-size: 45px;
     margin-bottom: 30px; 
 }
-
 .single-services svg {
     width: 3rem;
     height: 3rem;
     margin-bottom: 1rem;
 }
-
 .single-services h2 {
     font-family: bebas neue;
     color: var(--azulClaro);
 }
-
 .row {
+    margin: 0 auto;
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -295,11 +292,6 @@ form {
 .footer-iconTop a:hover {
     box-shadow: 0 0 1rem var(--negro);
 }
-
-.footer-iconTop a svg {
-    color: var(--negro);
-}
-
 /* Responsive */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -339,7 +331,7 @@ form {
 
     .carousel-caption p {
         width: 100%;
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .carousel-caption a {
@@ -366,6 +358,10 @@ form {
 
     .single-client {
         margin-bottom: 30px;
+    }
+
+    .left-contact {
+        margin-bottom: 2rem;
     }
 
     .left-contact h3 {
